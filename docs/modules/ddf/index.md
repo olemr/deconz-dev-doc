@@ -55,6 +55,9 @@ devices/
 ```
 
 This is similar to SmartThings device descriptions. The REST-API plugin loads DDF files by traversing through the directory tree, and for easier development can even hot reload them when a file changes.
+// Explain how to handle re-branded devices? (I missed this when making this DDF https://github.com/dresden-elektronik/deconz-rest-plugin/pull/8076)
+// Example: Namron devices which are re-branded Sunricher devices.
+// Should we make dedicated folders or piggyback on the first one to the party?
 
 ## DDF file content
 
